@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100% !important;
+    background-image: url("placeholder1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#navbarNav ul{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#navbarNav ul li{
+    padding: 0 15px;
+}
+
+.home{
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0px;
+    padding: 0px;
+}
+
+.homeText{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    right: 0px;
+    bottom: 50px;
+    text-align: center;
+}
+
+.title{
+    /* font-family: 'Rock Salt', cursive; */
+    /* font-family: 'Cinzel Decorative', cursive; */
+    font-family: 'Qwigley', cursive;
+    /* font-family: 'Stalemate', cursive; */
+    /* font-family: 'Ruthie', cursive; */
+    font-size: 85px;
+}
+
+.navbar-brand{
+    font-family: 'Qwigley', cursive;
+    font-size: 50px;
+    margin: 0 auto;
+}
+
+h6, button{
+    /* font-family: 'Nanum Pen Script', cursive; */
+    /* font-size: 30px; */
+}
+
+form{
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.login{
+    position: absolute;
+    top: 250px;
+}
+
+.hidden{
+    display: none;
+}

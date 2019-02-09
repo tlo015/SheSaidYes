@@ -1,6 +1,7 @@
 const mongoose = require ('mongoose');
 const Schema = mongoose.Schema;
 
+//Alllow admin to login and create guests
 let AdminSchema = new Schema ({
     username: {
         type: String, 
@@ -13,7 +14,7 @@ let AdminSchema = new Schema ({
     },
     guest: {
         type: Schema.Types.ObjectId,
-        ref: mongoose.model('Guest', GuestSchema)
+        ref: 'Guest',
     }
 });
 
